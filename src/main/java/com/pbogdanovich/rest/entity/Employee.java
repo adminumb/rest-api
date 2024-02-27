@@ -10,6 +10,7 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
+    private int test;
     @Column(name = "name")
     private String name;
     @Column(name = "surname")
