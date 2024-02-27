@@ -38,6 +38,12 @@ public class MyController {
             return employee;
     }
 
+    @PostMapping("/employees")
+    public Employee addTestNewEmployee(@RequestBody Employee employee){
+        employeeService.setEmployee(employee);
+        return employee;
+    }
+
     @PutMapping("/employees")
     public Employee updateEmployee(@RequestBody Employee employee){
         employeeService.setEmployee(employee);
