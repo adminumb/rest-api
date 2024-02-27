@@ -13,7 +13,6 @@ public interface EmployeeDao {
     public Employee getEmployee(int employeeId);
     public void deleteEmployee(int employeeId);
     public void employee1(int employeeId);
-    public void employee2(int employeeId);
 
 
 }
